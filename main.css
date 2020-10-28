@@ -1,0 +1,26 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Kumbh+Sans&family=Roboto+Mono&display=swap");
+/* Colors */
+/* Fonts */
+/* Font Sizes */
+/* Box Sizing */
+/* Border Sizing */
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scrollbar-width: none;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  padding: 2.4rem;
+}
+/*# sourceMappingURL=main.css.map */
