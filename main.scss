@@ -75,10 +75,6 @@ $border-radius: 2pt;
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  //font-size: 112.5%;
-}
-
 body {
   z-index: 0;
   color: color(primary);
@@ -158,7 +154,6 @@ header {
       margin: 0;
       & + p {
         opacity: 80%;
-        //margin: $margin $margin;
       }
     }
   }
@@ -195,7 +190,6 @@ ul {
 }
 
 div.contact {
-  //font-size: size(s);
   display: flex;
   flex-flow: row nowrap;
 
@@ -209,10 +203,6 @@ section {
 }
 
 @media print {
-  // section.professional-skills {
-  //   page-break-after: always;
-  // }
-
   a{
     -webkit-text-fill-color: color(accent);
   }
