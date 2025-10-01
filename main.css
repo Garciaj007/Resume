@@ -47,7 +47,7 @@ h2 {
   margin-bottom: 0.2rem;
   border-bottom: 2pt solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(170deg, #2667ff 0%, #0039cb 100%);
+  border-image-source: linear-gradient(170deg, #4d8fff 0%, #0039cb 100%);
 }
 
 h3 {
@@ -64,7 +64,7 @@ a {
   text-decoration: none;
   display: block;
   color: #2667ff;
-  background: linear-gradient(170deg, #2667ff 0%, #0039cb 100%);
+  background: linear-gradient(170deg, #4d8fff 0%, #0039cb 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -72,6 +72,11 @@ a {
 a:hover, a:focus {
   text-decoration: underline;
   -webkit-text-fill-color: #2667ff;
+}
+a.external {
+  vertical-align: super;
+  display: inline;
+  font-size: 1.2rem;
 }
 
 p,
@@ -82,7 +87,7 @@ a {
 header {
   border-left: 2pt solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(170deg, #2667ff 0%, #0039cb 100%);
+  border-image-source: linear-gradient(170deg, #4d8fff 0%, #0039cb 100%);
   padding-left: 1ch;
 }
 header > div {

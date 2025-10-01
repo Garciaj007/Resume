@@ -19,7 +19,7 @@ $colors: (
 }
 
 $gradients: (
-  primary: linear-gradient(170deg, color(accent) 0%, color(accent-dark) 100%),
+  primary: linear-gradient(170deg, color(accent-light) 0%, color(accent-dark) 100%),
 );
 
 @function gradient($gradient) {
@@ -136,6 +136,12 @@ a {
   &:focus {
     text-decoration: underline;
     -webkit-text-fill-color: color(accent);
+  }
+
+  &.external {
+    vertical-align: super;
+    display: inline;
+    font-size: size(m);
   }
 }
 
