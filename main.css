@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;1,200&family=Noto+Serif:ital,wght@0,500;1,500&family=Sanchez:ital@0;1&display=swap");
 /* Colors */
 /* Fonts */
-/* Font Sizes */
 /* Box Sizing */
 /* Border Sizing */
 * {
@@ -40,23 +39,23 @@ h3 {
 }
 
 h1 {
-  font-size: 2.441rem;
+  font-size: 2.074rem;
 }
 
 h2 {
-  font-size: 1.953rem;
+  font-size: 1.728rem;
   margin-bottom: 0.2rem;
   border-bottom: 2pt solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(170deg, #2667FF 0%, #0039cb 100%);
+  border-image-source: linear-gradient(170deg, #2667ff 0%, #0039cb 100%);
 }
 
 h3 {
-  font-size: 1.563rem;
+  font-size: 1.44rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 a {
@@ -64,15 +63,15 @@ a {
   font-weight: bold;
   text-decoration: none;
   display: block;
-  color: #2667FF;
-  background: linear-gradient(170deg, #2667FF 0%, #0039cb 100%);
+  color: #2667ff;
+  background: linear-gradient(170deg, #2667ff 0%, #0039cb 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 a:hover, a:focus {
   text-decoration: underline;
-  -webkit-text-fill-color: #2667FF;
+  -webkit-text-fill-color: #2667ff;
 }
 
 p,
@@ -83,7 +82,7 @@ a {
 header {
   border-left: 2pt solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(170deg, #2667FF 0%, #0039cb 100%);
+  border-image-source: linear-gradient(170deg, #2667ff 0%, #0039cb 100%);
   padding-left: 1ch;
 }
 header > div {
@@ -110,7 +109,7 @@ ul li p.date-range {
   width: 13ch;
   margin: 0.05rem;
   opacity: 0.6;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -134,7 +133,11 @@ section {
 }
 
 @media print {
+  * {
+    font-size: 10pt;
+    line-height: 1.2;
+  }
   a {
-    -webkit-text-fill-color: #2667FF;
+    -webkit-text-fill-color: #2667ff;
   }
 }/*# sourceMappingURL=main.css.map */

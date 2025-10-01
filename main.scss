@@ -5,7 +5,7 @@
 $colors: (
   primary: #2d3142,
   secondary: #ffffff,
-  accent: #2667FF,
+  accent: #2667ff,
   accent-light: #4d8fff,
   accent-dark: #0039cb,
 );
@@ -46,15 +46,14 @@ $fonts: (
   @return map-get($map: $fonts, $key: $font);
 }
 
-/* Font Sizes */
 $fontsizes: (
   s: 0.75rem,
   r: 1rem,
-  m: 1.25rem,
-  l: 1.563rem,
-  xl: 1.953rem,
-  xxl: 2.441rem,
-  xxx: 3.052rem,
+  m: 1.2rem,
+  l: 1.44rem,
+  xl: 1.728rem,
+  xxl: 2.074rem,
+  xxx: 2.488rem,
 );
 
 @function size($size) {
@@ -184,7 +183,7 @@ ul {
         font-size: size(r);
         text-transform: uppercase;
         vertical-align: 4%;
-      };
+      }
     }
   }
 }
@@ -203,7 +202,12 @@ section {
 }
 
 @media print {
-  a{
+  * {
+    font-size: 10pt;
+    line-height: 1.2;
+  }
+
+  a {
     -webkit-text-fill-color: color(accent);
   }
 }
